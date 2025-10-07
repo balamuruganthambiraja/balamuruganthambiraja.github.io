@@ -101,77 +101,104 @@
     <div id="projects" class="background-alt">
         <h2 class="heading">Research</h2>
         <div class="container">
-            <div class="row">
+            <div class="projects-grid">
 
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="./assets/3DiFACE_v1.gif"  style="width: 300px; height: auto;">
+                <article class="project-card shadow-large">
+                    <div class="project-media">
+                        <img src="./assets/clutch_teaser.gif" alt="Preview of CLUTCH project">
                     </div>
-                    <div class="project-info">
-                        <i>3DV 2025</i>
+                    <div class="project-body">
+                        <div class="project-meta">
+                            <span class="project-badge">Under Review</span>
+                        </div>
+                        <h3>CLUTCH: Contextualized Language Model for Unlocking Text-Conditioned Hand Motion Modelling in the Wild</h3>
+                        <p>
+                            CLUTCH combines language grounding with motion diffusion to synthesize and caption in-the-wild hand motions from textual prompts.
+                        </p>
+                        <div class="project-links">
+                            <a class="project-link" href="https://balamuruganthambiraja.github.io/CLUTCH/" target="_blank" rel="noopener">View Project</a>
+                        </div>
+                    </div>
+                </article>
+                <!-- End .CLUTCH -->
+
+                <article class="project-card shadow-large">
+                    <div class="project-media">
+                        <img src="./assets/3DiFACE_v1.gif" alt="Preview of 3DiFACE project">
+                    </div>
+                    <div class="project-body">
+                        <div class="project-meta">
+                            <span class="project-badge">3DV 2025</span>
+                        </div>
                         <h3>3DiFACE: Synthesizing and Editing Holistic 3D Facial Animation</h3>
                         <p>
-                            3DiFACE is a novel diffusion-based method for synthesizing and editing holistic 3D facial animation from an audio sequence, wherein one can synthesize a diverse set of facial animations and seamlessly edit facial animations.
-                       </p>
-                        <a href="https://balamuruganthambiraja.github.io/3DiFACE/">View Project</a>
-                    </div>
-                </div>
-                <!-- End .3DiFACE -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="./assets/comand.png"  style="width: 300px; height: auto;">
-                    </div>
-                    <div class="project-info">
-                        <i>VMV 2024 <font color="red">(Best Paper Honorable Mention)</font></i>
-                        <h3>COMAND: Controllable Action-aware Manifold for 3D Motion Synthesis</h3>
-                        <p>
-                            COMAND is a novel method for controllable multi-action 3D motion synthesis without requiring action-labeled data.
-                       </p>
-                        <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IiZ10SYAAAAJ&citation_for_view=IiZ10SYAAAAJ:YsMSGLbcyi4C">View Paper</a>
-                    </div>
-                </div>
-                <!-- End .3DiFACE -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <!-- <img src="./src/project.jpg"> -->
-                        <img src="./assets/imitator.gif"  style="width: 300px; height: auto;">
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <i>ICCV 2023</i>
-                        <h3>Imitator: Personalized Speech-driven 3D Facial Animation </h3> 
-                        <p>
-                            Imitator is a novel method for personalized speech-driven 3D facial animation. Given an audio sequence and a personalized style-embedding as input, we generate person-specific motion sequences with accurate lip closures for bilabial consonants ('m','b','p'). The style-embedding of a subject can be computed by a short reference video (e.g., 5s).
+                            3DiFACE is a diffusion-based method for synthesizing and editing holistic 3D facial animation from audio, enabling diverse generations and seamless edits.
                         </p>
-                        <a href="https://balamuruganthambiraja.github.io/Imitator/">View Project</a>
+                        <div class="project-links">
+                            <a class="project-link" href="https://balamuruganthambiraja.github.io/3DiFACE/" target="_blank" rel="noopener">View Project</a>
+                        </div>
                     </div>
-                    <!-- End .project-info -->
-                </div>
+                </article>
+                <!-- End .3DiFACE -->
+
+                <article class="project-card shadow-large">
+                    <div class="project-media">
+                        <img src="./assets/comand.png" alt="Preview of COMAND project">
+                    </div>
+                    <div class="project-body">
+                        <div class="project-meta">
+                            <span class="project-badge">VMV 2024</span>
+                            <span class="project-tag">Best Paper Honorable Mention</span>
+                        </div>
+                        <h3>COMAND: Controllable Action-aware Manifold for 3D Motion Synthesis (as collabrator)</h3>
+                        <p>
+                            COMAND is a controllable multi-action 3D motion synthesis approach that removes the need for action-labeled data while keeping actions coherent.
+                        </p>
+                        <div class="project-links">
+                            <a class="project-link" href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=IiZ10SYAAAAJ&amp;citation_for_view=IiZ10SYAAAAJ:YsMSGLbcyi4C" target="_blank" rel="noopener">View Paper</a>
+                        </div>
+                    </div>
+                </article>
+                <!-- End .COMAND -->
+
+                <article class="project-card shadow-large">
+                    <div class="project-media">
+                        <img src="./assets/imitator.gif" alt="Preview of Imitator project">
+                    </div>
+                    <div class="project-body">
+                        <div class="project-meta">
+                            <span class="project-badge">ICCV 2023</span>
+                        </div>
+                        <h3>Imitator: Personalized Speech-driven 3D Facial Animation </h3>
+                        <p>
+                            Imitator generates person-specific speech-driven 3D facial animation with accurate lip closures using a short reference clip to build a style embedding.
+                        </p>
+                        <div class="project-links">
+                            <a class="project-link" href="https://balamuruganthambiraja.github.io/Imitator/" target="_blank" rel="noopener">View Project</a>
+                        </div>
+                    </div>
+                </article>
                 <!-- End .Imitator -->
 
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <!-- <img src="./src/project.jpg"> -->
-                        <img src="./assets/slt_25.gif"  style="width: 300px; height: auto;">
+                <article class="project-card shadow-large">
+                    <div class="project-media">
+                        <img src="./assets/slt_25.gif" alt="Preview of Neural Sign Language Synthesis project">
                     </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <i>Master Thesis</i>
-                        <h3>Neural Sign Language Synthesis</h3> 
+                    <div class="project-body">
+                        <div class="project-meta">
+                            <span class="project-badge">Master Thesis</span>
+                        </div>
+                        <h3>Neural Sign Language Synthesis</h3>
                         <p>
-                            We present a novel method to synthesize sign pose sequences from input text using a transformer-based method. We achieved state-of-the-results in RWTH-PHOENIX 2014T benchmark by utilizing relative positional embedding and
-                            relative patch discriminator.
+                            A transformer-based pipeline that synthesizes sign pose sequences from text, achieving state-of-the-art results on the RWTH-PHOENIX 2014T benchmark.
                         </p>
-                        <a href="https://drive.google.com/file/d/1EV2mYP3r3tsDQeQmpcO6PNAv7SgO7Hrt/view" target="_blank">Thesis(pdf)</a>
-                        <a href="https://docs.google.com/presentation/d/1n8jiidpW2Ar_WgEWqrOoUkqZ5rJELIzP/edit?usp=sharing&ouid=105414147419136329478&rtpof=true&sd=true" target="_blank">Presentation(pptx)</a>
+                        <div class="project-links">
+                            <a class="project-link" href="https://drive.google.com/file/d/1EV2mYP3r3tsDQeQmpcO6PNAv7SgO7Hrt/view" target="_blank" rel="noopener">Thesis (PDF)</a>
+                            <a class="project-link" href="https://docs.google.com/presentation/d/1n8jiidpW2Ar_WgEWqrOoUkqZ5rJELIzP/edit?usp=sharing&amp;ouid=105414147419136329478&amp;rtpof=true&amp;sd=true" target="_blank" rel="noopener">Presentation (PPTX)</a>
+                        </div>
                     </div>
-                    <!-- End .project-info -->
-                </div>
+                </article>
                 <!-- End .SLT -->
-
-                
 
             </div>
         </div>
